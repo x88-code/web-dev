@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.hero-section {
+    background-color: navy;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section .btn {
+    margin: 10px;
+}
+
+
+.bio-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.progress {
+    height: 10px;
+    background-color: lightgray;
+}
+
+.progress-bar {
+    background-color: green;
+}
+
+
+.services {
+    padding: 50px 0;
+    background: whitesmoke;
+}
+
+
+.stats {
+    background-color: green;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.stats .col {
+    margin-bottom: 20px;
+}
+
+
+.portfolio img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 20px;
+    }
+
+    .bio-section .row {
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
